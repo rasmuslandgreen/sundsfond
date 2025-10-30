@@ -1,6 +1,5 @@
-
 import React, { forwardRef } from 'react';
-import type { TimelineEvent } from '../types.ts';
+import type { TimelineEvent } from '../types';
 
 const timelineData: TimelineEvent[] = [
   {
