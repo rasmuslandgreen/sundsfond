@@ -1,12 +1,13 @@
+
 import React, { useRef } from 'react';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import FocusAreas from './components/FocusAreas';
-import Recipients from './components/Recipients';
-import FundingCriteria from './components/FundingCriteria';
-import Apply from './components/Apply';
-import FAQ from './components/FAQ';
-import Footer from './components/Footer';
+import Header from './components/Header.tsx';
+import Hero from './components/Hero.tsx';
+import FocusAreas from './components/FocusAreas.tsx';
+import Recipients from './components/Recipients.tsx';
+import FundingCriteria from './components/FundingCriteria.tsx';
+import Apply from './components/Apply.tsx';
+import FAQ from './components/FAQ.tsx';
+import Footer from './components/Footer.tsx';
 
 const App: React.FC = () => {
   const focusRef = useRef<HTMLElement>(null);

@@ -1,5 +1,6 @@
+
 import React, { useState, forwardRef } from 'react';
-import type { FAQItem } from '../types';
+import type { FAQItem } from '../types.ts';
 
 interface AccordionItemProps {
   item: FAQItem;
